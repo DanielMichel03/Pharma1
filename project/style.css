@@ -1,0 +1,64 @@
+* {
+    font-family: poppins;
+    text-decoration: none;
+    
+}
+
+body {
+
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+header {
+    padding: 0 80px;
+    background-color: #EEA1CD;
+    color: white;
+}
+
+header,
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    gap: 10px;
+}
+
+header a {
+
+    color: white;
+
+}
+
+main {
+    width: 80%;
+    margin: 80px auto;
+    min-height: 100vh;
+    background-image:"/Users/danieliskandar/Desktop/pharma.jpeg";
+}
+
+form {
+    width: 500px;
+}
+
+footer {
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+input {
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number] {
+    width: 250px;
+}
